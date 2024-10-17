@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import logo from "../images/icon 2.png";
+import fb from "../images/Facebook.svg";
+import insta from "../images/Instagram.svg";
+import link from "../images/LinkedIn.svg";
+import x from "../images/X.svg";
+import youtube from "../images/Youtube.svg";
 
 const Footer = () => {
   return (
@@ -25,12 +30,14 @@ const Footer = () => {
           <div className="w-full flex flex-col justify-start items-start gap-4">
             <div className="w-full flex justify-start items-start gap-4">
               <div className="flex-1 h-12 p-3 border border-black rounded-xl flex justify-start items-center gap-2">
-                <input type="email" className="flex-1 text-gray-600 text-base outline-none font-roboto font-normal leading-6"
-                  Enter your email
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="flex-1 text-gray-600 text-base outline-none font-roboto font-normal leading-6"
                 />
               </div>
-              <div className="h-12 px-6 py-3 border border-black rounded-xl flex justify-center items-center gap-2">
-                <div className="text-black text-base font-roboto font-normal leading-6">
+              <div className="h-12 px-6 py-3 border border-black rounded-xl flex justify-center items-center gap-2 hover:bg-[#B5651D]">
+                <div className="text-black text-base font-roboto font-normal leading-6 cursor-pointer hover:text-white">
                   Subscribe
                 </div>
               </div>
@@ -39,7 +46,7 @@ const Footer = () => {
               <span className="text-black text-xs font-roboto font-normal leading-[18px]">
                 By subscribing you agree to with our{" "}
               </span>
-              <span className="text-black text-xs font-roboto font-normal underline leading-[18px]">
+              <span className="text-black text-xs font-roboto font-normal underline leading-[18px] cursor-pointer">
                 Privacy Policy
               </span>
               <span className="text-black text-xs font-roboto font-normal leading-[18px]">
@@ -76,19 +83,27 @@ const Footer = () => {
               Follow Us
             </div>
             <div className="w-full flex flex-col justify-start items-center">
-              {["Facebook", "Instagram", "X", "LinkedIn", "Youtube"].map(
-                (social, index) => (
-                  <div
-                    key={index}
-                    className="w-full py-2 flex justify-start items-center gap-3"
-                  >
-                    <div className="relative w-6 h-6 bg-black" />
-                    <div className="text-black text-sm font-roboto font-normal leading-[21px]">
-                      {social}
-                    </div>
+              {[
+                { name: "Facebook", logo: fb },
+                { name: "Instagram", logo: insta },
+                { name: "X", logo: x },
+                { name: "LinkedIn", logo: link },
+                { name: "Youtube", logo: youtube },
+              ].map((social, index) => (
+                <div
+                  key={index}
+                  className="w-full py-2 flex justify-start items-center gap-3"
+                >
+                  <Image
+                    src={social.logo}
+                    className="relative w-6 h-6"
+                    alt={`${social.name} icon`}
+                  />
+                  <div className="text-black text-sm font-roboto font-normal leading-[21px]">
+                    {social.name}
                   </div>
-                )
-              )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -104,7 +119,7 @@ const Footer = () => {
               (policy, index) => (
                 <div
                   key={index}
-                  className="text-black text-sm font-roboto font-normal underline leading-[21px]"
+                  className="text-black text-sm font-roboto font-normal underline leading-[21px] cursor-pointer"
                 >
                   {policy}
                 </div>
