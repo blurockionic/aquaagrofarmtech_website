@@ -6,7 +6,10 @@ const MissionVision = () => {
   return (
     <section className="mission-vision">
       <div className="mission-vision-content">
-        <h2>Our Mission and Vision</h2>
+        <div className="mission-vision-header">
+          <img src="./images/targeticon.png" alt="Mission Icon" className="mission-icon" />
+          <h2>Our Mission and Vision</h2>
+        </div>
         <p>
           With over 8 years of dedicated experience, AQUA AGRO FARMTECH has cultivated a deep passion
           for greenery and sustainable practices. Our team is committed to enhancing landscapes and promoting

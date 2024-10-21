@@ -99,9 +99,25 @@ button {
   max-width: 50%;
 }
 
+/* Style for the header containing the icon and the heading */
+.mission-vision-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  left: 40px;
+}
+
+/* Style for the icon to be placed on the left */
+.mission-icon {
+  width: 40px;
+  height: auto;
+  margin-right: 10px; /* Adds spacing between the icon and the heading */
+}
+
+/* Heading style */
 .mission-vision h2 {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin: 0; /* Remove margin since spacing is controlled via the icon */
 }
 
 .mission-vision p {
@@ -118,6 +134,7 @@ button {
   border-radius: 10px;
 }
 
+
 /* Director's Insight Section */
 .director-insight {
   display: flex;
@@ -125,7 +142,6 @@ button {
   align-items: center;
   padding: 40px;
   background-color: #fff;
-  border-top: 1px solid #ddd;
   border-radius: 10px;
 }
 
@@ -198,6 +214,7 @@ button {
   background-color: #EEEEEE;
   border: none;
   padding: 10px 20px;
+  border-radius: 5px;
   margin: 0 10px;
   cursor: pointer;
   font-weight: bold;
@@ -242,59 +259,180 @@ button {
 }
 
 .about p {
-  color: #f7c843;
+  color: #FF9800;
   font-size: 1.2rem;
 }
 
 
 /* Milestones Section */
+/* Milestones Section */
 .milestones {
-  background-color: #9d6e22;
-  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #A0522D; /* Brownish background similar to the screenshot */
   padding: 40px;
-  text-align: left;
+  color: white; /* White text for good contrast */
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Left content section */
+.milestones-content {
+  max-width: 40%;
+}
+
+/* Heading style */
+.milestones-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white; /* White text for heading */
+}
+
+/* Contact button styling */
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #A0522D; /* Change color on hover for better visibility */
+}
+
+/* Timeline section */
+/* Milestones Section */
+.milestones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #A0522D; /* Brownish background */
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Left content section */
+.milestones-content {
+  max-width: 40%;
 }
 
 .milestones-content h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #A0522D; /* Change color on hover */
+}
+
+/* Timeline Section */
+/* Milestones Section */
+.milestones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #B5651D;
+  color: white;
+}
+
+/* Left content section */
+.milestones-content {
+  max-width: 40%;
+}
+
+.milestones-content h2 {
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
 .contact-btn {
-  background-color: white;
-  color: #9d6e22;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
   padding: 10px 20px;
-  border: none;
-  cursor: pointer;
   border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.contact-btn:hover {
+  background-color: white;
+  color: #A0522D;
+}
+
+/* Timeline Section */
 .timeline {
-  margin-top: 30px;
-}
-
-.timeline-item {
-  position: relative;
+  max-width: 50%;
   padding-left: 40px;
-  margin-bottom: 20px;
+  position: relative;
 }
 
-.timeline-item::before {
-  content: "●";
+/* Vertical line for the timeline */
+.timeline::before {
+  content: '';
   position: absolute;
-  left: 0;
   top: 0;
-  font-size: 1.5rem;
+  left: 30px;
+  height: 100%;
+  width: 2px;
+  background-color: white;
+}
+
+/* Timeline items */
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .timeline-item h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
+  color: white;
 }
 
 .timeline-item p {
-  margin-bottom: 5px;
+  font-size: 1rem;
+  color: white;
 }
+
+/* Icon for each timeline point */
+.milestone-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+/* Spacing for text to align with the timeline */
+.timeline-item div {
+  margin-left: 10px;
+}
+
+
+
 
 /* Footer Section */
 .footer {
