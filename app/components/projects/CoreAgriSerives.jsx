@@ -1,4 +1,9 @@
 import React from "react";
+import { IoIosArrowForward } from "react-icons/io";
+import service_1 from "../../images/services/service_type_1.png";
+import service_2 from "../../images/services/service_type_2.png";
+import service_3 from "../../images/services/service_type_3.png";
+import Image from "next/image";
 
 const CoreAgriSerives = () => {
   return (
@@ -20,12 +25,12 @@ const CoreAgriSerives = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex flex-col justify-start items-center gap-8">
-        <div className="w-full flex flex-wrap justify-start items-start gap-8">
-          <div className="w-full md:w-[411px] bg-white border border-gray-400 rounded-lg flex flex-col justify-start items-start">
-            <img
+      <div className="w-full flex flex-col justify-center items-center gap-8">
+        <div className="w-full flex flex-wrap justify-center items-center gap-8">
+          <div className="w-full md:w-[411px] bg-white border border-gray-400 rounded-2xl flex flex-col justify-start items-start">
+            <Image
               className="w-full h-[233px] rounded-t-lg"
-              src="https://via.placeholder.com/411x233"
+              src={service_1}
               alt="Service Image"
             />
             <div className="w-full h-[239px] p-8 flex flex-col justify-center items-start gap-6">
@@ -41,19 +46,17 @@ const CoreAgriSerives = () => {
               <div className="h-11 flex justify-start items-center gap-6 border border-yellow-200 rounded-md">
                 <div className="px-3 py-1 flex justify-center items-center gap-2 rounded-md">
                   <div className="text-yellow-600 text-base">Details</div>
-                  <div className="w-6 h-6">
-                    <div className="w-[7px] h-[11px] bg-yellow-600"></div>
-                  </div>
+                  <IoIosArrowForward className="text-yellow-600 text-lg md:text-xl" />
                 </div>
               </div>
             </div>
           </div>
 
           {/* Repeat similar structure for other items */}
-          <div className="w-full md:w-[411px] bg-white border border-gray-400 rounded-lg flex flex-col justify-start items-start">
-            <img
+          <div className="w-full md:w-[411px] bg-white border border-gray-400 rounded-2xl flex flex-col justify-start items-start">
+            <Image
               className="w-full h-[233px] rounded-t-lg"
-              src="https://via.placeholder.com/411x233"
+              src={service_2}
               alt="Service Image"
             />
             <div className="w-full h-[239px] p-8 flex flex-col justify-center items-start gap-6">
@@ -68,18 +71,16 @@ const CoreAgriSerives = () => {
               <div className="h-11 flex justify-start items-center gap-6 border border-yellow-200 rounded-md">
                 <div className="px-3 py-1 flex justify-center items-center gap-2 rounded-md">
                   <div className="text-yellow-600 text-base">Details</div>
-                  <div className="w-6 h-6">
-                    <div className="w-[7px] h-[11px] bg-yellow-600"></div>
-                  </div>
+                  <IoIosArrowForward className="text-yellow-600 text-lg md:text-xl" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="w-full md:w-[411px] bg-white border border-gray-400 rounded-lg flex flex-col justify-start items-start">
-            <img
+          <div className="w-full md:w-[411px] bg-white border border-gray-400 rounded-2xl flex flex-col justify-start items-start">
+            <Image
               className="w-full h-[233px] rounded-t-lg"
-              src="https://via.placeholder.com/411x233"
+              src={service_3}
               alt="Service Image"
             />
             <div className="w-full h-[239px] p-8 flex flex-col justify-center items-start gap-6">
@@ -94,9 +95,7 @@ const CoreAgriSerives = () => {
               <div className="h-11 flex justify-start items-center gap-6 border border-yellow-200 rounded-md">
                 <div className="px-3 py-1 flex justify-center items-center gap-2 rounded-md">
                   <div className="text-yellow-600 text-base">Details</div>
-                  <div className="w-6 h-6">
-                    <div className="w-[7px] h-[11px] bg-yellow-600"></div>
-                  </div>
+                  <IoIosArrowForward className="text-yellow-600 text-lg md:text-xl" />
                 </div>
               </div>
             </div>
