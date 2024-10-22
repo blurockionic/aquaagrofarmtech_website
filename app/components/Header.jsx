@@ -62,9 +62,10 @@ const Header = () => {
           { name: "About Us", path: "/pages/about" },
           { name: "Services", path: "/services" },
           { name: "Projects", path: "/pages/projects" },
-          { name: "Testimonials", path: "/testimonials" },
-          { name: "Awards", path: "/awards" },
-          { name: "Contact Us", path: "/contact" },
+          { name: "Gallery", path: "/pages/gallery" },
+          { name: "Testimonials", path: "/pages/testimonials" },
+          { name: "Awards", path: "/pages/awards" },
+          { name: "Contact Us", path: "/pages/contact" },
         ].map(({ name, path }) => (
           <li
             key={name}
