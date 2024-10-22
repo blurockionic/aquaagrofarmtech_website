@@ -1,11 +1,14 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import image_1 from "../../images/image_service_1.png";
 import image_2 from "../../images/image_service_2.png";
 import image_3 from "../../images/image_service_3.png";
 import { IoIosArrowForward } from "react-icons/io";
+import { useRouter } from "next/navigation";
 
 const OurServiceMain = () => {
+  const router = useRouter();
   return (
     <div className="w-full h-full px-4 md:px-16 py-12 md:py-28 bg-white flex flex-col justify-start items-center gap-10 md:gap-20">
       {/* Heading Section */}
@@ -42,8 +45,11 @@ const OurServiceMain = () => {
             <div className="text-black text-sm md:text-lg font-normal leading-5 md:leading-6">
               Revolutionizing agriculture with top-tier polyhouse structures.
             </div>
-            <div className="h-10 md:h-12 py-1 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6">
-              <div className="px-3 flex justify-center items-center gap-2">
+            <div
+              className="h-10 md:h-12 py-1 px-3 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6 cursor-pointer"
+              onClick={() => router.push("/pages/landscaping")}
+            >
+              <div className="flex justify-center items-center gap-2">
                 <span className="text-[#FF9800] text-base md:text-lg font-normal">
                   Details
                 </span>
