@@ -1,0 +1,480 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5DC;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.mission-vision-content {
+  max-width: 50%;
+  text-align: center; /* Center-align the text and icon */
+}
+
+.mission-vision-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the icon and the text */
+  margin-bottom: 20px;
+}
+
+.mission-icon {
+  width: 60px; /* Increase the size of the icon */
+  height: auto;
+  margin-right: 15px;
+}
+
+.mission-vision h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.mission-vision p {
+  margin-bottom: 20px;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 20px; /* Add spacing between the buttons */
+}
+
+.mission-vision-image img {
+  max-width: 400px; /* Increased the size of the target image */
+  height: auto;
+  width: 350px;
+  border-radius: 10px;
+}
+
+
+
+/* Director's Insight Section */
+.director-insight {
+  display: flex;
+  justify-content: space-between; /* Ensures content is spread out */
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.director-insight-content {
+  max-width: 60%;
+}
+
+.director-insight h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.director-insight .tagline {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.director-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.director-profile img {
+  width: 150px; /* Adjusted size for better fit */
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.director-profile h3 {
+  font-size: 1.5rem; /* Adjusted size for the heading "Ashish Goswami" */
+  margin: 5px 0;
+}
+
+.director-profile p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+
+/* Button Styles */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.button.primary {
+  background-color: #B5651D;
+  color: #FFFFFF;
+}
+
+.button.secondary {
+  background-color: transparent;
+  color: #B5651D;
+  border: 1px solid #B5651D;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.service-buttons button {
+  background-color: #EEEEEE;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.service-buttons button:hover {
+  background-color: #d8a72a;
+}
+
+/* about */
+.about {
+  text-align: left;
+  padding: 100px 200px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px; /* Space between the text and the image */
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-image img {
+  max-width: 200px; /* Adjust size as needed */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about h3 {
+  font-size: 2rem;
+  color: #67b447;
+}
+
+.about p {
+  color: #FF9800;
+  font-size: 1.2rem;
+}
+
+
+/* Milestones Section */
+/* Milestones Section */
+.milestones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #A0522D; /* Brownish background similar to the screenshot */
+  padding: 40px;
+  color: white; /* White text for good contrast */
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Left content section */
+.milestones-content {
+  max-width: 40%;
+}
+
+/* Heading style */
+.milestones-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white; /* White text for heading */
+}
+
+/* Contact button styling */
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #A0522D; /* Change color on hover for better visibility */
+}
+
+/* Timeline section */
+/* Milestones Section */
+.milestones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #A0522D; /* Brownish background */
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Left content section */
+.milestones-content {
+  max-width: 40%;
+}
+
+.milestones-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #A0522D; /* Change color on hover */
+}
+
+/* Timeline Section */
+/* Milestones Section */
+.milestones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #B5651D;
+  color: white;
+}
+
+/* Left content section */
+.milestones-content {
+  max-width: 40%;
+}
+
+.milestones-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #A0522D;
+}
+
+/* Timeline Section */
+.timeline {
+  max-width: 50%;
+  padding-left: 40px;
+  position: relative;
+}
+
+/* Vertical line for the timeline */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 30px;
+  height: 100%;
+  width: 2px;
+  background-color: white;
+}
+
+/* Timeline items */
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-item h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Icon for each timeline point */
+.milestone-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+/* Spacing for text to align with the timeline */
+.timeline-item div {
+  margin-left: 10px;
+}
+
+
+
+
+/* Footer Section */
+.footer {
+  background-color: #f4f1df;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  height: 100px;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-links li,
+.footer-social li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Newsletter Form */
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  margin-left: 200px;
+}
+
+.newsletter-form button {
+  background-color: #F5F5DC;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
