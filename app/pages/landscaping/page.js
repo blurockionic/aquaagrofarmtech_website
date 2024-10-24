@@ -5,6 +5,7 @@ import InnovativeSection from "@/app/components/landscaping/InnovativeSection";
 import LandscapingService from "@/app/components/landscaping/LandscapingService";
 import UnlockSection from "@/app/components/landscaping/UnlockSection";
 import React from "react";
+import "../../../app/App.css";
 
 const Landscaping = () => {
   return (

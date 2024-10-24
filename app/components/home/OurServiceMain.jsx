@@ -6,6 +6,7 @@ import image_2 from "../../images/image_service_2.png";
 import image_3 from "../../images/image_service_3.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const OurServiceMain = () => {
   const router = useRouter();
@@ -45,17 +46,14 @@ const OurServiceMain = () => {
             <div className="text-black text-sm md:text-lg font-normal leading-5 md:leading-6">
               Revolutionizing agriculture with top-tier polyhouse structures.
             </div>
-            <div
-              className="h-10 md:h-12 py-1 px-3 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6 cursor-pointer"
-              onClick={() => router.push("/pages/landscaping")}
-            >
-              <div className="flex justify-center items-center gap-2">
-                <span className="text-[#FF9800] text-base md:text-lg font-normal">
+            <Link href={`/pages/polyhouse`}>
+              <div className="w-fit mt-4 py-1 px-2 rounded-lg border border-[#ffcc80] flex justify-start items-center gap-1 text-[#ff9800] hover:bg-[#ff9800] hover:text-white transition-all duration-300 cursor-pointer">
+                <span className="text-base font-normal font-['Roboto']">
                   Details
                 </span>
-                <IoIosArrowForward className="text-[#FF9800] text-lg md:text-xl" />
+                <span>{`>`}</span> {/* Right Arrow */}
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -73,14 +71,14 @@ const OurServiceMain = () => {
             <div className="text-black text-sm md:text-lg font-normal leading-5 md:leading-6">
               Maximizing growth with precision irrigation solutions.
             </div>
-            <div className="h-10 md:h-12 py-1 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6">
-              <div className="px-3 flex justify-center items-center gap-2">
-                <span className="text-[#FF9800] text-base md:text-lg font-normal">
-                  Details
-                </span>
-                <IoIosArrowForward className="text-[#FF9800] text-lg md:text-xl" />
-              </div>
-            </div>
+              <Link href={`/pages/irrigation`}>
+                <div className="w-fit mt-4 py-1 px-2 rounded-lg border border-[#ffcc80] flex justify-start items-center gap-1 text-[#ff9800] hover:bg-[#ff9800] hover:text-white transition-all duration-300 cursor-pointer">
+                  <span className="text-base font-normal font-['Roboto']">
+                    Details
+                  </span>
+                  <span>{`>`}</span> {/* Right Arrow */}
+                </div>
+              </Link>
           </div>
         </div>
 
@@ -98,14 +96,14 @@ const OurServiceMain = () => {
             <div className="text-black text-sm md:text-lg font-normal leading-5 md:leading-6">
               Transforming spaces with expert landscaping craftsmanship.
             </div>
-            <div className="h-10 md:h-12 py-1 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6">
-              <div className="px-3 flex justify-center items-center gap-2">
-                <span className="text-[#FF9800] text-base md:text-lg font-normal">
+            <Link href={`/pages/landscaping`}>
+              <div className="w-fit mt-4 py-1 px-2 rounded-lg border border-[#ffcc80] flex justify-start items-center gap-1 text-[#ff9800] hover:bg-[#ff9800] hover:text-white transition-all duration-300 cursor-pointer">
+                <span className="text-base font-normal font-['Roboto']">
                   Details
                 </span>
-                <IoIosArrowForward className="text-[#FF9800] text-lg md:text-xl" />
+                <span>{`>`}</span> {/* Right Arrow */}
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

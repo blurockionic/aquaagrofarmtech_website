@@ -1,4 +1,6 @@
 import React from "react";
+import img8 from "../../images/landscaping/landscaping_image_8.png";
+import Image from "next/image";
 
 const InnovativeSection = () => {
   return (
@@ -48,10 +50,10 @@ const InnovativeSection = () => {
 
         {/* Image */}
         <div className="flex-shrink-0">
-          <img
-            src="https://via.placeholder.com/640x640"
+          <Image
+            src={img8}
             alt="Landscaping Image"
-            className="w-[640px] h-[640px] rounded-2xl object-cover"
+            className="w-[640px] h-[400px] md:h-[640px]  rounded-2xl object-cover"
           />
         </div>
       </div>
