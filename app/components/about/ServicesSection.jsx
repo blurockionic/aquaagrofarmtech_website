@@ -1,13 +1,19 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import "../../App.css";
 
 const ServicesSection = () => {
   return (
-    <section className="services">
-      <div className="service-buttons">
-        <button>Polytunnel Innovation</button>
-        <button>Irrigation Excellence</button>
-        <button>Landscape Mastery</button>
+    <section className="px-10">
+      <div className=" flex flex-row gap-2 justify-center items-center">
+        <button className="px-1 py-2 rounded-md text-black bg-gray-300 hover:bg-[#B5651D] hover:text-white text-sm md:text-lg">
+          Polytunnel Innovation
+        </button>
+        <button className="px-1 py-2 rounded-md text-black bg-gray-300 hover:bg-[#B5651D] hover:text-white text-sm md:text-lg">
+          Irrigation Excellence
+        </button>
+        <button className="px-1 py-2 rounded-md text-black bg-gray-300 hover:bg-[#B5651D] hover:text-white text-sm md:text-lg">
+          Landscape Mastery
+        </button>
       </div>
     </section>
   );
