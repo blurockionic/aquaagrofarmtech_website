@@ -13,9 +13,9 @@ const HeroSection = () => {
           className="hero-image" 
         />
       </div>
-      <div className="hero-content">
+      <div className="hero-content py-10">
         <h1>Innovative Agriculture Solutions</h1>
-        <p>Leading Punjab's Agro-tech revolution with 700+ successful projects</p>
+        <p className='text-sm px-5'>Leading Punjab's Agro-tech revolution with 700+ successful projects</p>
       </div>
     </section>
   );
