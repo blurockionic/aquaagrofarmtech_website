@@ -8,7 +8,7 @@ const AboutSection = () => {
     <section className=" py-10 md:px-24" id="about">
       <div className=" flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col justify-start items-start mt-10 gap-3">
-          <h2 className='text-md '>ABOUT</h2>
+          <h2 className="text-md  ">ABOUT</h2>
           <h3 className='font-bold text-2xl md:text-4xl text-[#4CAF50]'>AQUA AGRO FARMTECH</h3>
           <p className='text-sm md:text-md text-[#FF9800]'>Transforming Farming & Landscaping with Innovative Solutions</p>
         </div>
