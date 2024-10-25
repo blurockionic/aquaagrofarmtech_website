@@ -73,8 +73,11 @@ const OurServiceMain = () => {
             <div className="text-black text-sm md:text-lg font-normal leading-5 md:leading-6">
               Maximizing growth with precision irrigation solutions.
             </div>
-            <div className="h-10 md:h-12 py-1 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6">
-              <div className="px-3 flex justify-center items-center gap-2">
+            <div
+              className="h-10 md:h-12 py-1 px-3 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6 cursor-pointer"
+              onClick={() => router.push("/pages/irrigation")}
+            >
+              <div className="flex justify-center items-center gap-2">
                 <span className="text-[#FF9800] text-base md:text-lg font-normal">
                   Details
                 </span>
