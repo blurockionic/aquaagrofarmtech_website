@@ -5,7 +5,7 @@ import image_1 from "../../images/ourproject/project_image_1.png"
 const HeroSection = () => {
   return (
     <div className="w-full h-full pb-20 bg-white flex flex-col justify-start items-center gap-10">
-      <Image className="w-full  h-auto" src={image_1} alt="Project Image" />
+      <Image className="w-full  h-[400px]" src={image_1} alt="Project Image" />
 
       <div className="flex flex-col justify-start items-center gap-6">
         <div className="flex flex-col justify-start items-start gap-6">

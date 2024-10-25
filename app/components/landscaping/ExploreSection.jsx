@@ -1,4 +1,8 @@
+import Image from "next/image";
 import React from "react";
+import img1 from "../../images/landscaping/image_1.svg";
+import img2 from "../../images/landscaping/image_2.svg";
+import img3 from "../../images/landscaping/image_3.svg";
 
 const ExploreSection = () => {
   return (
@@ -35,7 +39,7 @@ const ExploreSection = () => {
         <div className="flex flex-col md:flex-row justify-start items-start gap-12">
           {/* Service 1 */}
           <div className="flex-1 flex flex-col justify-start items-start gap-6">
-            <div className="w-12 h-11 bg-black"></div>
+            <Image className="w-12 h-11 " src={img1} alt="Landscape Image"/>
             <h3 className="text-black text-2xl font-bold leading-10">
               Expert Landscape Design and Installation
             </h3>
@@ -48,11 +52,7 @@ const ExploreSection = () => {
           {/* Service 2 */}
           <div className="flex-1 flex flex-col justify-start items-start gap-6">
             <div className="w-12 h-12 relative">
-              <div className="absolute w-7 h-9 left-4 top-0 bg-black"></div>
-              <div className="absolute w-4 h-4 left-6 top-2 bg-black"></div>
-              <div className="absolute w-2 h-2 left-7 top-4 bg-black"></div>
-              <div className="absolute w-8 h-8 left-0 top-4 bg-black"></div>
-              <div className="absolute w-1 h-1 left-1 top-10 bg-black"></div>
+            <Image className="w-12 h-11 " src={img2} alt="Landscape Image"/>
             </div>
             <h3 className="text-black text-2xl font-bold leading-10">
               Reliable Maintenance for Long-lasting Beauty
@@ -65,7 +65,7 @@ const ExploreSection = () => {
 
           {/* Service 3 */}
           <div className="flex-1 flex flex-col justify-start items-start gap-6">
-            <div className="w-12 h-12 bg-black"></div>
+          <Image className="w-12 h-11 " src={img3} alt="Landscape Image"/>
             <h3 className="text-black text-2xl font-bold leading-10">
               Expert Consultation for Your Landscaping Success
             </h3>
