@@ -524,3 +524,78 @@ button {
     padding: 20px;
   }
 }
+
+
+/* new page testimonial */
+/* review slider */
+.testimonials-section {
+  padding: 64px;
+  background-color: #B5651D; /* Background color reference */
+  color: white;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.testimonial-card {
+  width: 416px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #F5F5DC; /* Border color reference */
+  background-color: #fff;
+  color: #000;
+}
+
+.testimonial-info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.testimonial-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.testimonial-details {
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  color: #FFEB3B;
+  font-size: 18px;
+  border: 0.34px solid black;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
