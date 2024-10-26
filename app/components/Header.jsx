@@ -83,7 +83,7 @@ const Header = () => {
       <ul
         className={`${
           isOpen ? "flex" : "hidden"
-        } flex-col absolute top-24 left-0 w-full bg-[#B5651D] text-white items-center md:hidden gap-4 py-6`}
+        } z-50 flex-col absolute top-24 left-0 w-full bg-[#B5651D] text-white items-center md:hidden gap-4 py-6`}
       >
         {[
           { name: "Home", path: "/" },
