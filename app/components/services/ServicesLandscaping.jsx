@@ -7,7 +7,7 @@ const ServicesLandscaping = () => {
   return (
     <div id='landscaping'>
       <div className="w-full min-h-screen px-8 md:px-16 py-28 bg-white flex flex-col justify-start items-start gap-20">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-10">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-start gap-10">
           {/* Left Column */}
           <div className="flex-1 flex flex-col gap-8 md:mr-6">
             <div className="flex flex-col md:mt-12 gap-4">

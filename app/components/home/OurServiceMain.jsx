@@ -71,19 +71,6 @@ const OurServiceMain = () => {
             <div className="text-black text-sm md:text-lg font-normal leading-5 md:leading-6">
               Maximizing growth with precision irrigation solutions.
             </div>
-<<<<<<< HEAD
-            <div
-              className="h-10 md:h-12 py-1 px-3 border border-[#FFCC80] rounded-lg flex justify-start items-center gap-2 md:gap-6 cursor-pointer"
-              onClick={() => router.push("/pages/irrigation")}
-            >
-              <div className="flex justify-center items-center gap-2">
-                <span className="text-[#FF9800] text-base md:text-lg font-normal">
-                  Details
-                </span>
-                <IoIosArrowForward className="text-[#FF9800] text-lg md:text-xl" />
-              </div>
-            </div>
-=======
               <Link href={`/pages/irrigation`}>
                 <div className="w-fit mt-4 py-1 px-2 rounded-lg border border-[#ffcc80] flex justify-start items-center gap-1 text-[#ff9800] hover:bg-[#ff9800] hover:text-white transition-all duration-300 cursor-pointer">
                   <span className="text-base font-normal font-['Roboto']">
@@ -92,7 +79,6 @@ const OurServiceMain = () => {
                   <span>{`>`}</span> {/* Right Arrow */}
                 </div>
               </Link>
->>>>>>> 8f645f59790f3cb2ea65a368ca6d41f9ad44b711
           </div>
         </div>
 
