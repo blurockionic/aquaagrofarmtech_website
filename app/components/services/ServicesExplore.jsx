@@ -40,7 +40,7 @@ const ServicesExplore = () => {
                 </p>
               </div>
               {/* Standardized Button */}
-              <Link href={'#polyhouse'}>
+              <Link href={'/pages/polyhouse'}>
                 <div className="w-fit mt-4 py-1 px-2 rounded-lg border border-[#ffcc80] flex justify-start items-center gap-1 text-[#ff9800] hover:bg-[#ff9800] hover:text-white transition-all duration-300 cursor-pointer">
                   <span className="text-base font-normal font-['Roboto']">Details</span>
                   <span>{`>`}</span> {/* Right Arrow */}
