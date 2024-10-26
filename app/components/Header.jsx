@@ -19,19 +19,23 @@ const Header = () => {
     router.push(path); // Navigate to the route
   };
 
+  const handleLogoClick = () => {
+    setActiveLink("Home"); // Set the active link to Home
+    router.push("/"); // Navigate to home
+  };
+
   return (
     <header
       className="w-full flex justify-between items-center px-7 py-3"
-      style={{ background: "#B5651D" }}
+      style={{ background: "#B5651D", zIndex: 10, position: 'relative' }} // Added position
     >
       {/* Logo */}
-      <div>
+      <div onClick={handleLogoClick} className="cursor-pointer">
         <Image
           src={logo}
           alt="logo"
           width={72}
           height={72}
-          className="cursor-pointer"
         />
       </div>
 
@@ -90,7 +94,6 @@ const Header = () => {
           { name: "About Us", path: "/pages/about" },
           { name: "Services", path: "/pages/services" },
           { name: "Projects", path: "/pages/projects" },
-          { name: "Gallery", path: "/pages/gallery" },
           { name: "Testimonials", path: "/pages/testimonials" },
           { name: "Awards", path: "/pages/awards" },
           { name: "Contact Us", path: "/pages/contact" },
