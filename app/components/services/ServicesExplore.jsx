@@ -9,7 +9,7 @@ const ServicesExplore = () => {
   
   return (
     <>
-      <div className="w-full min-h-screen px-16 py-28 bg-[#f5f5dc] flex flex-col justify-start items-start gap-20">
+      <div className="w-full min-h-screen px-6 sm:px-16 py-28 bg-[#f5f5dc] flex flex-col justify-start items-start gap-20">
         {/* Section Header */}
         <div className="flex flex-col gap-4">
           <div className="text-black text-base font-semibold font-['Roboto']">Services</div>
