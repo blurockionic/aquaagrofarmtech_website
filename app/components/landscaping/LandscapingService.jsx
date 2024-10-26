@@ -1,5 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import img1 from "../../images/landscaping/landscaping_image_1.png";
+import img2 from "../../images/landscaping/landscaping_image_2.png";
+import img3 from "../../images/landscaping/landscaping_image_3.png";
+import img4 from "../../images/landscaping/landscaping_image_4.png";
+import img5 from "../../images/landscaping/landscaping_image_5.png";
+import img6 from "../../images/landscaping/landscaping_image_6.png";
+import img7 from "../../images/landscaping/landscaping_image_7.png";
 
 const LandscapingService = () => {
   return (
@@ -22,8 +29,8 @@ const LandscapingService = () => {
         </div>
         {/* Right-Side Image */}
         <div className="flex-shrink-0">
-          <img
-            src="https://via.placeholder.com/489x206"
+          <Image
+            src={img1}
             alt="Landscape Image"
             className="w-[489px] h-[206px] rounded-2xl object-cover"
           />
@@ -32,39 +39,39 @@ const LandscapingService = () => {
 
       {/* Three-Image Row */}
       <div className="flex flex-wrap justify-center items-center gap-8 w-full">
-        <img
-          src="https://via.placeholder.com/207x540"
+        <Image
+          src={img2}
           alt="Image 1"
-          className="w-[240px] h-[540px] rounded-2xl object-cover"
+          className="w-[240px] h-[540px] rounded-2xl object-cover hidden md:block"
         />
-        <img
-          src="https://via.placeholder.com/802x540"
+        <Image
+          src={img3}
           alt="Image 2"
           className="w-[802px] h-[540px] rounded-2xl object-cover"
         />
-        <img
-          src="https://via.placeholder.com/207x540"
+        <Image
+          src={img4}
           alt="Image 3"
-          className="w-[240px] h-[540px] rounded-2xl object-cover"
+          className="w-[240px] h-[540px] rounded-2xl object-cover hidden md:block"
         />
       </div>
 
       {/* Bottom Image Grid */}
       <div className="flex flex-wrap justify-center items-center gap-8 w-full">
-        <img
-          src="https://via.placeholder.com/575x206"
+        <Image
+          src={img5}
           alt="Image 4"
-          className="w-[575px] h-[206px] rounded-2xl object-cover"
+          className="w-[575px] h-[206px] rounded-2xl object-cover "
         />
-        <img
-          src="https://via.placeholder.com/358x206"
+        <Image
+          src={img6}
           alt="Image 5"
-          className="w-[358px] h-[206px] rounded-2xl object-cover"
+          className="w-[358px] h-[206px] rounded-2xl object-cover hidden md:block"
         />
-        <img
-          src="https://via.placeholder.com/379x206"
+        <Image
+          src={img7}
           alt="Image 6"
-          className="w-[379px] h-[206px] rounded-2xl object-cover"
+          className="w-[379px] h-[206px] rounded-2xl object-cover hidden md:block"
         />
       </div>
     </div>

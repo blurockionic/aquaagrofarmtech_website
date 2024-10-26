@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Merriweather Sans';
 }
 
 /* In your global CSS file */
@@ -28,14 +29,9 @@ body, html {
   text-align: center;
 }
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
 
-p {
-  margin: 10px 0;
-}
+
+
 
 button {
   cursor: pointer;
@@ -43,9 +39,9 @@ button {
 
 /* Hero Section */
 .hero {
-  position: relative;
+  /* position: relative; */
   text-align: center;
-  color: white;
+  
 }
 
 .hero-image {
@@ -54,20 +50,22 @@ button {
   object-fit: cover;
 }
 
-.hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+/* .hero-content {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+/* } */ 
 
 .hero-content h1 {
+  color: black;
   font-size: 3rem;
   font-weight: bold;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  color: black;
+  font-size: 16px;
 }
 
 /* Mission and Vision Section */
@@ -225,15 +223,7 @@ button {
 }
 
 
-button {
-  padding: 10px 20px; /* Padding for button */
-  background-color: #ffae00; /* Button color */
-  border: none; /* No border */
-  color: #fff; /* Text color */
-  font-size: 1rem; /* Font size for button */
-  cursor: pointer; /* Pointer cursor */
-  border-radius: 5px; /* Rounded corners */
-}
+
 
 /* Responsive Design: Adjust layout for smaller screens */
 @media (max-width: 768px) {
@@ -266,23 +256,24 @@ button {
     font-size: 0.9rem; /* Smaller button text size */
     padding: 8px 16px; /* Reduce button padding */
   }
+
 }
 
 
 
 /* Optional: Button style tweaks if necessary */
-button {
+/* button {
   padding: 10px 20px;
-  background-color: #ffae00; /* Button color similar to the one in the image */
+  background-color: #ffae00; 
   border: none;
   color: #fff;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
-}
+} */
 
 
-/* Button Styles */
+/* 
 .button {
   padding: 10px 20px;
   border: none;
@@ -290,12 +281,12 @@ button {
   cursor: pointer;
   font-size: 1rem;
   margin-right: 10px;
-}
+} */
 
-.button.primary {
+/* .button.primary {
   background-color: #B5651D;
   color: #FFFFFF;
-}
+} */
 
 .button.secondary {
   background-color: transparent;
@@ -352,20 +343,7 @@ button {
   border-radius: 10px;
 }
 
-.about h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
 
-.about h3 {
-  font-size: 2rem;
-  color: #67b447;
-}
-
-.about p {
-  color: #FF9800;
-  font-size: 1.2rem;
-}
 
 /* Milestones Section */
 .milestones {
@@ -476,126 +454,4 @@ button {
     max-width: 90%;
   }
 
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
 
-  .hero-content p {
-    font-size: 1.2rem;
-  }
-
-  .milestones-content {
-    max-width: 100%;
-  }
-
-  .timeline {
-    max-width: 100%;
-    padding-left: 20px;
-  }
-
-  .timeline::before {
-    left: 20px;
-  }
-
-  .about {
-    padding: 40px 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero-image {
-    height: 250px;
-  }
-
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  .mission-vision-content,
-  .director-insight-content {
-    max-width: 100%;
-  }
-
-  .about {
-    padding: 20px;
-  }
-}
-
-
-/* new page testimonial */
-/* review slider */
-.testimonials-section {
-  padding: 64px;
-  background-color: #B5651D; /* Background color reference */
-  color: white;
-  text-align: center;
-}
-
-.section-header h2 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 48px;
-}
-
-.testimonials-grid {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-
-.testimonial-card {
-  width: 416px;
-  padding: 32px;
-  border-radius: 16px;
-  border: 1px solid #F5F5DC; /* Border color reference */
-  background-color: #fff;
-  color: #000;
-}
-
-.testimonial-info {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-
-.testimonial-img {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-
-.testimonial-details {
-  h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-  p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-  }
-}
-
-.stars {
-  display: flex;
-  gap: 4px;
-}
-
-.star {
-  color: #FFEB3B;
-  font-size: 18px;
-  border: 0.34px solid black;
-  width: 20px;
-  height: 20px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}

@@ -32,7 +32,7 @@ const HeroSection = () => {
             </button>
             <button
               type="button"
-              className="border border-[#B5651D] text-[#B5651D] rounded-md px-4 py-2 text-sm md:text-base"
+              className="border border-[#B5651D] text-[#B5651D] bg-white rounded-md px-4 py-2 text-sm md:text-base"
             >
               Our Services
             </button>

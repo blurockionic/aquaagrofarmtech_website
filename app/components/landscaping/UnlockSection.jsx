@@ -1,4 +1,6 @@
 import React from "react";
+import img9 from "../../images/landscaping/landscaping_image_9.png";
+import Image from "next/image";
 
 const UnlockSection = () => {
   return (
@@ -20,7 +22,7 @@ const UnlockSection = () => {
           </div>
 
           {/* Features List */}
-          <div className="flex flex-col justify-start items-start gap-4 h-[156px] py-2">
+          <div className=" mt-20 md:mt-0 flex flex-col justify-start items-start gap-4 h-[156px] py-2">
             <div className="flex items-center gap-4">
               <div className="w-4 h-4 relative">
                 <div className="w-4 h-4 bg-[#4CAF50] rounded-full"></div>
@@ -52,9 +54,9 @@ const UnlockSection = () => {
         </div>
 
         {/* Right Column - Image */}
-        <img
-          className="w-[640px] h-[640px] rounded-2xl"
-          src="https://via.placeholder.com/640x640"
+        <Image
+          className="w-[640px] h-[400px] md:h-[640px] rounded-2xl"
+          src={img9}
           alt="Landscaping Example"
         />
       </div>
