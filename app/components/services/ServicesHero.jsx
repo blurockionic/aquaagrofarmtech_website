@@ -8,7 +8,7 @@ const ServicesHero = () => {
     <div className="w-full h-[100vh] bg-white flex flex-col justify-center items-center gap-20">
       <div className="relative w-full h-full">
         <Image
-          className="w-full h-full absolute top-0 left-0 opacity-40"
+          className="w-full h-full absolute top-0 left-0 opacity-70"
           src={Heroimg}
           alt="Background"
         />

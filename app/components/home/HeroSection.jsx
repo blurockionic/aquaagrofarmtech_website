@@ -7,7 +7,7 @@ import right from "../../images/image_right.png";
 const HeroSection = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-between">
+      <div className="mt-16 md:mt-0 flex flex-col md:flex-row items-center justify-between">
         {/* Text Content */}
         <div className="flex flex-col gap-5 px-6 md:px-12 w-full md:w-1/2">
           <h1 className="text-[#4CAF50] text-[32px] md:text-[56px] font-merriweather-sans font-bold leading-tight md:leading-[67.2px] break-words">
