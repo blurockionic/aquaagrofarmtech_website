@@ -223,15 +223,7 @@ button {
 }
 
 
-/* button {
-  padding: 10px 20px; 
-  background-color: #ffae00; 
-  border: none; 
-  color: #fff;
-  font-size: 1rem; 
-  cursor: pointer; 
-  border-radius: 5px; 
-} */
+
 
 /* Responsive Design: Adjust layout for smaller screens */
 @media (max-width: 768px) {
@@ -264,6 +256,7 @@ button {
     font-size: 0.9rem; /* Smaller button text size */
     padding: 8px 16px; /* Reduce button padding */
   }
+
 }
 
 
@@ -349,10 +342,6 @@ button {
   height: auto;
   border-radius: 10px;
 }
-
-
-
-
 
 
 
@@ -465,51 +454,4 @@ button {
     max-width: 90%;
   }
 
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
 
-  .hero-content p {
-    font-size: 1.2rem;
-  }
-
-  .milestones-content {
-    max-width: 100%;
-  }
-
-  .timeline {
-    max-width: 100%;
-    padding-left: 20px;
-  }
-
-  .timeline::before {
-    left: 20px;
-  }
-
-  .about {
-    padding: 40px 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero-image {
-    height: 250px;
-  }
-
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  .mission-vision-content,
-  .director-insight-content {
-    max-width: 100%;
-  }
-
-  .about {
-    padding: 20px;
-  }
-}
