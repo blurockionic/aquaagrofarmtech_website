@@ -1,3 +1,4 @@
+"use client"; // Ensures this component is treated as a client component
 import Image from "next/image";
 import React from "react";
 import logo from "../images/icon 2.png";
@@ -6,16 +7,34 @@ import insta from "../images/Instagram.svg";
 import link from "../images/LinkedIn.svg";
 import x from "../images/X.svg";
 import youtube from "../images/Youtube.svg";
+import { useRouter } from "next/navigation"; // Import useRouter from next/navigation
 
 const Footer = () => {
+  const router = useRouter(); // Initialize the router
+
+  // Define the links with their respective paths
+  const footerLinks = [
+    { name: "Home", path: "/" },
+    { name: "About Us", path: "/pages/about" },
+    { name: "Services", path: "/pages/services" },
+    { name: "Polyhouse", path: "/pages/polyhouse" },
+    { name: "Irrigation", path: "/pages/irrigation" },
+    { name: "Landscaping", path: "/pages/landscaping" },
+    { name: "Projects", path: "/pages/projects" },
+    { name: "Gallery", path: "/pages/gallery" },
+    { name: "Testimonials", path: "/pages/testimonials" },
+    { name: "Awards", path: "/pages/awards" },
+    { name: "Contact Us", path: "/pages/contact" },
+  ];
+
   return (
-    <div className="w-full px-6 py-10 sm:px-10 md:px-16 lg:py-20 bg-beige flex flex-col gap-12 lg:gap-20">
+    <div className="w-full px-6 py-10 sm:px-10 md:px-16 lg:py-20 bg-[#f5f5dc] flex flex-col gap-12 lg:gap-20">
       <div className="w-full flex flex-col lg:flex-row justify-between items-start lg:gap-32 gap-10">
         {/* Left Section */}
         <div className="lg:w-[700px] flex flex-col gap-6">
           <div className="flex items-center gap-5">
             <Image className="w-16 h-16" src={logo} alt="Logo" />
-            <div className="text-olive font-merriweather text-2xl md:text-3xl font-bold leading-8 lg:leading-12">
+            <div className="text-[#556b2f] font-merriweather text-2xl md:text-3xl font-bold leading-8 lg:leading-12">
               AQUA AGRO FARMTECH
             </div>
           </div>
@@ -29,7 +48,7 @@ const Footer = () => {
                 placeholder="Enter your email"
                 className="flex-1 h-12 p-3 border border-black rounded-xl outline-none text-sm md:text-base text-gray-600 font-roboto"
               />
-              <button className="h-12 px-6 py-3 border border-black rounded-xl flex justify-center items-center hover:bg-[#B5651D]">
+              <button className="h-12 px-6 py-3 border border-black rounded-xl flex justify-center items-center hover:bg-[#B5651D] transition-colors duration-300">
                 <span className="text-black hover:text-white font-roboto text-sm md:text-base cursor-pointer">
                   Subscribe
                 </span>
@@ -43,22 +62,21 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Column One */}
+        {/* Column One (Updated) */}
         <div className="flex-1">
           <div className="text-black text-base font-roboto font-semibold">
-            Column One
+            Aqua Agro Farmtech
           </div>
           <div className="flex flex-col gap-2 mt-2">
-            {["Link One", "Link Two", "Link Three", "Link Four", "Link Five"].map(
-              (link, index) => (
-                <div
-                  key={index}
-                  className="text-black text-sm font-roboto font-normal"
-                >
-                  {link}
-                </div>
-              )
-            )}
+            {footerLinks.map(({ name, path }, index) => (
+              <div
+                key={index}
+                className="text-black text-sm font-roboto font-normal cursor-pointer hover:text-[#B5651D] transition-colors duration-300"
+                onClick={() => router.push(path)} // Navigate on click
+              >
+                {name}
+              </div>
+            ))}
           </div>
         </div>
 
@@ -75,7 +93,7 @@ const Footer = () => {
               { name: "LinkedIn", logo: link },
               { name: "Youtube", logo: youtube },
             ].map((social, index) => (
-              <div key={index} className="flex items-center gap-3">
+              <div key={index} className="flex items-center gap-3 cursor-pointer hover:text-[#B5651D] transition-colors duration-300">
                 <Image
                   src={social.logo}
                   className="w-6 h-6"
@@ -102,7 +120,7 @@ const Footer = () => {
               (policy, index) => (
                 <div
                   key={index}
-                  className="text-black text-sm font-roboto underline cursor-pointer"
+                  className="text-black text-sm font-roboto underline cursor-pointer hover:text-[#B5651D] transition-colors duration-300"
                 >
                   {policy}
                 </div>
