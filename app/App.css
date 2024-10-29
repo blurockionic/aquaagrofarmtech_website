@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Merriweather Sans';
 }
 
 /* In your global CSS file */
@@ -18,7 +17,7 @@
 
 
 body, html {
-  font-family: Arial, sans-serif;
+ 
   color: #333;
   line-height: 1.6;
   margin: 0;

@@ -1,3 +1,4 @@
+import { Hotel, Mail, Phone } from "lucide-react";
 import React from "react";
 
 const GetInTouch = () => {
@@ -18,7 +19,7 @@ const GetInTouch = () => {
         <div className="flex flex-wrap justify-between gap-6 w-full">
           <div className="flex-1 min-w-[150px] flex flex-col justify-start items-center gap-6">
             <div className="w-12 h-12 relative">
-              <div className="w-10 h-8 bg-[#FF9800] absolute top-2 left-2"></div>
+              <Mail className="w-10 h-8 text-[#FF9800] absolute top-2 left-2"></Mail>
             </div>
             <div className="flex flex-col justify-start items-center gap-4">
               <h2 className="text-2xl md:text-3xl font-bold text-[#FF9800] text-center">
@@ -31,7 +32,7 @@ const GetInTouch = () => {
           </div>
           <div className="flex-1 min-w-[150px] flex flex-col justify-start items-center gap-6">
             <div className="w-12 h-12 relative">
-              <div className="w-9 h-9 bg-[#FF9800] absolute top-1 left-1"></div>
+              <Phone className="w-9 h-9 text-[#FF9800] absolute top-1 left-1"></Phone>
             </div>
             <div className="flex flex-col justify-start items-center gap-4">
               <h2 className="text-2xl md:text-3xl font-bold text-[#FF9800] text-center">
@@ -44,7 +45,7 @@ const GetInTouch = () => {
           </div>
           <div className="flex-1 min-w-[150px] flex flex-col justify-start items-center gap-6">
             <div className="w-12 h-12 relative">
-              <div className="w-8 h-10 bg-[#FF9800] absolute top-2 left-2"></div>
+              <Hotel className="w-8 h-10 text-[#FF9800] absolute top-2 left-2"></Hotel>
             </div>
             <div className="flex flex-col justify-start items-center gap-4">
               <h2 className="text-2xl md:text-3xl font-bold text-[#FF9800] text-center">

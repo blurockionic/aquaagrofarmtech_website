@@ -1,4 +1,5 @@
-"use client"
+"use client";
+import { ChevronDown } from "lucide-react";
 import React, { useState } from "react";
 
 const FrequentlyAskQuestion = () => {
@@ -56,11 +57,11 @@ const FrequentlyAskQuestion = () => {
                 {faq.question}
               </span>
               <div className="w-8 h-8 relative">
-                <div
-                  className={`w-4 h-2 absolute top-1 left-1 transform ${
+                <ChevronDown
+                  className={` absolute top-1 left-1 transform ${
                     openIndex === index ? "rotate-0" : "rotate-180"
-                  } bg-black border border-black`}
-                ></div>
+                  }   `}
+                ></ChevronDown>
               </div>
             </div>
             {openIndex === index && (
