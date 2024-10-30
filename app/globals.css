@@ -16,7 +16,14 @@
 
 @font-face {
   font-family: 'MerriweatherSans';
-  src: url('/fonts/MerriweatherSans-VariableFont_wght.ttf') format('ttf ');
+  src: url('/fonts/MerriweatherSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
