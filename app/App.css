@@ -1,0 +1,456 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* In your global CSS file */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+body, html {
+ 
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+
+
+button {
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  /* position: relative; */
+  text-align: center;
+  
+}
+
+.hero-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* .hero-content {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+/* } */ 
+
+.hero-content h1 {
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  color: black;
+  font-size: 16px;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Align items in a row */
+  justify-content: space-between; /* Space out content */
+  align-items: flex-start; /* Align items to the top */
+  background-color: #F5F5DC;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.mission-vision-content {
+  max-width: 50%; /* Allow text to take half the width */
+  text-align: left; /* Align text to the left */
+  margin-right: -20px; /* Regular margin to keep some space */
+}
+
+.mission-vision-header {
+  display: flex;
+  align-items: center; /* Center icon and heading vertically */
+  margin-bottom: 20px;
+}
+
+.mission-icon {
+  width: 60px; /* Icon width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between icon and heading */
+}
+
+.mission-vision h2 {
+  font-size: 3.5rem; /* Increased font size for headings */
+  margin: 0; /* Remove default margin */
+  font-weight: bold; /* Make the heading bold */
+}
+
+.mission-vision p {
+  margin-bottom: 20px; /* Space below paragraphs */
+  line-height: 1.5; /* Increase line height for readability */
+}
+
+.button-group {
+  margin-top: 20px; /* Space above button group */
+  display: flex; /* Flexbox for button alignment */
+  justify-content: center; /* Center align buttons */
+  gap: 20px; /* Space between buttons */
+}
+
+.mission-vision-image {
+  display: flex; /* Align text and image together */
+  justify-content: center; /* Center the content */
+}
+
+.mission-vision-image img {
+  max-width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  width: 400px; /* Set image width to 700px */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .mission-vision {
+    flex-direction: column; /* Stack items in a column for smaller screens */
+    align-items: center; /* Center align items horizontally */
+  }
+
+  .mission-vision-content {
+    max-width: 100%; /* Allow full width on smaller screens */
+    text-align: center; /* Center text for smaller screens */
+    margin-bottom: 20px; /* Space below content */
+    margin-right: 0; /* Reset margin-right */
+  }
+
+  .mission-vision-image {
+    margin-top: 0; /* Reset margin-top for better alignment */
+  }
+
+  .mission-vision-image img {
+    width: 90%; /* Make image responsive for smaller screens */
+    max-width: 500px; /* Limit image width for larger screens */
+  }
+}
+
+
+
+
+/* Director's Insight Section */
+.director-insight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Padding for less space */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Reduced margin above */
+  margin-bottom: 20px; /* Reduced margin below */
+}
+
+.director-insight-content {
+  max-width: 60%;
+}
+
+.director-insight h2 {
+  font-size: 2rem; /* Font size for heading */
+  font-weight: bold; /* Make heading bold */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.director-insight .tagline {
+  font-size: 1.1rem; /* Tagline font size */
+  font-style: italic; /* Italic style */
+  color: #666; /* Color for tagline */
+  margin-bottom: 20px; /* Space below tagline */
+}
+
+.director-insight p {
+  font-size: 1rem; /* Font size for paragraph */
+  line-height: 1.6; /* Line height for readability */
+  margin-bottom: 20px; /* Space below paragraph */
+}
+
+.director-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center align text */
+  background-color: #f9f9f9; /* Background color for profile */
+  padding: 15px; /* Padding around profile */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow for profile */
+  max-width: 250px; /* Max width for profile */
+}
+
+.director-profile img {
+  width: 250px; /* Increased image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 5px; /* Space below image */
+}
+
+.director-profile h3 {
+  font-size: 1.4rem; /* Font size for director's name */
+  font-weight: bold; /* Bold name */
+  margin: 10px 0; /* Space around name */
+}
+
+.director-profile p {
+  font-size: 0.95rem; /* Font size for director's description */
+  color: #666; /* Color for description */
+  margin: 5px 0; /* Space around description */
+}
+
+
+
+
+/* Responsive Design: Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .director-insight {
+    flex-direction: column; /* Stack content vertically */
+    padding: 20px; /* Reduced padding */
+  }
+
+  .director-insight-content {
+    max-width: 100%; /* Allow full width */
+    text-align: center; /* Center text */
+  }
+
+  .director-profile {
+    margin-top: 20px; /* Space above profile */
+    max-width: 100%; /* Adjust profile width */
+  }
+}
+
+@media (max-width: 480px) {
+  .director-insight h2 {
+    font-size: 2.8rem; /* Smaller font size for heading */
+  }
+
+  .director-insight .tagline {
+    font-size: 1rem; /* Smaller tagline size */
+  }
+
+  button {
+    font-size: 0.9rem; /* Smaller button text size */
+    padding: 8px 16px; /* Reduce button padding */
+  }
+
+}
+
+
+
+/* Optional: Button style tweaks if necessary */
+/* button {
+  padding: 10px 20px;
+  background-color: #ffae00; 
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+} */
+
+
+/* 
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 10px;
+} */
+
+/* .button.primary {
+  background-color: #B5651D;
+  color: #FFFFFF;
+} */
+
+.button.secondary {
+  background-color: transparent;
+  color: #B5651D;
+  border: 1px solid #B5651D;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.service-buttons button {
+  background-color: #EEEEEE;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.service-buttons button:hover {
+  background-color: #B5651D;
+}
+
+/* About Section */
+.about {
+  text-align: left;
+  padding: 100px 200px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-image img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+/* Milestones Section */
+.milestones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #A0522D;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.milestones-content {
+  max-width: 40%;
+}
+
+.milestones-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #A0522D;
+}
+
+/* Timeline Section */
+.timeline {
+  max-width: 50%;
+  padding-left: 40px; /* Adjust for spacing */
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center; /* Center icon and text vertically */
+  margin-bottom: 40px;
+  position: relative; /* Relative positioning for the pseudo-element */
+}
+
+.timeline-item::after {
+  content: ''; /* Create a pseudo-element */
+  position: absolute;
+  left: 20px; /* Position the line precisely */
+  top: 80px; /* Start from a little lower than the top */
+  bottom: -46px; /* End a little higher than the bottom */
+  width: 2px; /* Line thickness */
+  background-color: white; /* Line color */
+}
+
+.timeline-item h4 {
+  font-size: 1.5rem;
+  margin: 0 10px; /* Reduced margin for closer spacing */
+  color: white;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: white;
+}
+
+.milestone-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px; /* Adjust spacing */
+}
+
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  .mission-vision,
+  .director-insight {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mission-vision-content,
+  .director-insight-content {
+    max-width: 100%;
+  }
+
+  .about {
+    padding: 50px 20px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-vision-content,
+  .director-insight-content {
+    max-width: 90%;
+  }
+}
+

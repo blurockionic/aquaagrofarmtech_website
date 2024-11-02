@@ -7,32 +7,28 @@ import { useRouter } from "next/navigation"; // Import useRouter from next/navig
 const Header = () => {
   const router = useRouter(); // Initialize the router
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("Home");
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((prev) => !prev); // Toggle the menu state
   };
 
-  const handleLinkClick = (name, path) => {
-    setActiveLink(name); // Set the active link
-    setIsOpen(false); // Close the menu
+  const handleLinkClick = (path) => {
+    setIsOpen(false); // Close the menu immediately
     router.push(path); // Navigate to the route
+  };
+
+  const handleLogoClick = () => {
+    router.push("/"); // Navigate to home
   };
 
   return (
     <header
       className="w-full flex justify-between items-center px-7 py-3"
-      style={{ background: "#B5651D" }}
+      style={{ background: "#B5651D", zIndex: 10, position: "relative" }}
     >
       {/* Logo */}
-      <div>
-        <Image
-          src={logo}
-          alt="logo"
-          width={72}
-          height={72}
-          className="cursor-pointer"
-        />
+      <div onClick={handleLogoClick} className="cursor-pointer">
+        <Image src={logo} alt="logo" width={72} height={72} />
       </div>
 
       {/* Hamburger Button (Visible on small screens) */}
@@ -60,17 +56,18 @@ const Header = () => {
         {[
           { name: "Home", path: "/" },
           { name: "About Us", path: "/pages/about" },
-          { name: "Services", path: "/services" },
+          { name: "Services", path: "/pages/services" },
           { name: "Projects", path: "/pages/projects" },
-          { name: "Testimonials", path: "/testimonials" },
-          { name: "Awards", path: "/awards" },
-          { name: "Contact Us", path: "/contact" },
+          { name: "Gallery", path: "/pages/gallery" },
+          { name: "Testimonials", path: "/pages/testimonials" },
+          { name: "Awards", path: "/pages/awards" },
+          { name: "Contact Us", path: "/pages/contact" },
         ].map(({ name, path }) => (
           <li
             key={name}
-            onClick={() => handleLinkClick(name, path)}
+            onClick={() => handleLinkClick(path)}
             className={`cursor-pointer ${
-              activeLink === name ? "border-b-2 border-white" : ""
+              router.pathname === path ? "border-b-2 border-white" : ""
             } hover:border-b-2 hover:border-white`}
           >
             {name}
@@ -82,22 +79,23 @@ const Header = () => {
       <ul
         className={`${
           isOpen ? "flex" : "hidden"
-        } flex-col absolute top-24 left-0 w-full bg-[#B5651D] text-white items-center md:hidden gap-4 py-6`}
+        } z-50 flex-col absolute top-24 left-0 w-full bg-[#B5651D] text-white items-center md:hidden gap-4 py-6`}
       >
         {[
           { name: "Home", path: "/" },
-          { name: "About Us", path: "/about" },
-          { name: "Services", path: "/services" },
-          { name: "Projects", path: "/projects" },
-          { name: "Testimonials", path: "/testimonials" },
-          { name: "Awards", path: "/awards" },
-          { name: "Contact Us", path: "/contact" },
+          { name: "About Us", path: "/pages/about" },
+          { name: "Services", path: "/pages/services" },
+          { name: "Projects", path: "/pages/projects" },
+          { name: "Gallery", path: "/pages/gallery" },
+          { name: "Testimonials", path: "/pages/testimonials" },
+          { name: "Awards", path: "/pages/awards" },
+          { name: "Contact Us", path: "/pages/contact" },
         ].map(({ name, path }) => (
           <li
             key={name}
-            onClick={() => handleLinkClick(name, path)}
+            onClick={() => handleLinkClick(path)}
             className={`cursor-pointer ${
-              activeLink === name ? "border-b-2 border-white" : ""
+              router.pathname === path ? "border-b-2 border-white" : ""
             } hover:border-b-2 hover:border-white`}
           >
             {name}
