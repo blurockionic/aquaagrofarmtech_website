@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import bghero from "../../images/bg-hero.png";
-import center from "../../images/image_center.png";
-import right from "../../images/image_right.png";
+import bghero from "../../images/polyhousemain.jpg";
+import center from "../../images/showcase-4.jpg";
+import right from "../../images/showcase-5.jpg";
 
 const HeroSection = () => {
   return (
