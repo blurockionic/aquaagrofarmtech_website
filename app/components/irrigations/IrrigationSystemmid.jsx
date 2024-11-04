@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import mid from '../../images/irrigation/mid.png';
+import mid from '../../images/irrigation/111.jpg';
 
 const IrrigationSystemmid = () => {
   return (
