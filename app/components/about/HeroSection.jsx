@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Image from 'next/image';  
-import img2 from '../../images/aboutpics/greenbg.png';  
+import img2 from '../../images/aboutpics/background.jpg';  
 
 const HeroSection = () => {
   return (

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import image_1 from "../../images/ourservices.jpg";
-import image_2 from "../../images/image_service_2.png";
+import image_2 from "../../images/1111.jpg";
 import image_3 from "../../images/image_service_3.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { useRouter } from "next/navigation";
