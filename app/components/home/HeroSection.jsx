@@ -54,7 +54,7 @@ const HeroSection = () => {
             alt="center_image"
           />
           <Image
-            className="hidden md:flex top-5 md:top-10 -right-5 md:-right-10 w-24 md:w-40 absolute h-32 md:h-52 shadow-md rounded-lg border-5 border-[#b7b7b7]/70"
+            className="hidden md:flex top-5 md:top-10 -right-0 w-24 md:w-40 absolute h-32 md:h-52 shadow-md rounded-lg border-5 border-[#b7b7b7]/70"
             src={right}
             alt="right_image"
           />
