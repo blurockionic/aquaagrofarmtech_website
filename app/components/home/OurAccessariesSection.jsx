@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from "../../images/products/image_pro_1.png";
-import img2 from "../../images/products/image_pro_2.png";
-import img3 from "../../images/products/image_pro_3.png";
-import img4 from "../../images/products/image_pro_4.png";
-import img5 from "../../images/products/image_pro_5.png";
-import img6 from "../../images/products/image_pro_6.png";
-import img7 from "../../images/products/image_pro_7.png";
-import img8 from "../../images/products/image_pro_8.png";
+import img1 from "../../images/products/pr1.png";
+import img2 from "../../images/products/pr2.png";
+import img3 from "../../images/products/pr3.png";
+import img4 from "../../images/products/pr4.png";
+import img5 from "../../images/products/pr5.png";
+import img6 from "../../images/products/pr6.png";
+import img7 from "../../images/products/pr7.png";
+import img8 from "../../images/products/pr8.png";
 import Image from "next/image";
 
 const OurAccessoriesSection = () => {
@@ -14,7 +14,7 @@ const OurAccessoriesSection = () => {
     <div className="w-full h-full p-8 bg-white flex flex-col justify-start items-center gap-12">
       <div className="self-stretch flex justify-center items-center">
         <div className="text-center text-black text-4xl font-bold leading-[57.6px] font-[Merriweather Sans] break-words">
-          Our Accessories
+        Features of this structure
         </div>
       </div>
 
