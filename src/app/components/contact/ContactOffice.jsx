@@ -20,6 +20,8 @@ const ContactOffice = () => {
           className="w-full sm:w-[404px] h-auto sm:h-[404px] object-cover rounded-lg" 
           src="https://via.placeholder.com/404x404" 
           alt="Office View 1" 
+          width={404} 
+          height={404}
         />
         <div className="w-full sm:w-[404px] h-auto sm:h-[404px] rounded-lg overflow-hidden">
           <iframe

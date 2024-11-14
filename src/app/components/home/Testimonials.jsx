@@ -19,7 +19,9 @@ const Testimonials = () => {
               <Image
                 className="w-12 h-12 rounded-full"
                 src="https://via.placeholder.com/48x48"
-                alt="Testimonial Image"
+                alt="Testimonial 1"
+                width={48}
+                height={48}
               />
               <div className="w-72 flex flex-col justify-start items-start">
                 <div className="w-full text-white text-lg font-medium font-[Roboto] leading-[27px]">
@@ -50,7 +52,9 @@ const Testimonials = () => {
               <Image
                 className="w-12 h-12 rounded-full"
                 src="https://via.placeholder.com/48x48"
-                alt="Testimonial Image"
+                alt="Testimonial 2"
+                width={48}
+                height={48}
               />
               <div className="flex-1 flex flex-col justify-start items-start">
                 <div className="w-full text-white text-lg font-medium font-[Roboto] leading-[27px]">
@@ -77,10 +81,12 @@ const Testimonials = () => {
         <div className="w-full md:w-[416px] p-8 rounded-lg overflow-hidden border border-[#F5F5DC] flex flex-col justify-start items-start gap-6">
           <div className="w-full h-auto flex flex-col justify-start items-start gap-6">
             <div className="w-full flex justify-start items-center gap-4">
-              <Image 
-                alt="Testimonial Image"
+              <Image
                 className="w-12 h-12 rounded-full"
                 src="https://via.placeholder.com/48x48"
+                alt="Testimonial 3"
+                width={48}
+                height={48}
               />
               <div className="flex-1 flex flex-col justify-start items-start">
                 <div className="w-full text-white text-lg font-medium font-[Roboto] leading-[27px]">

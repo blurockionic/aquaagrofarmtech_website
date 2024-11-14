@@ -1,8 +1,8 @@
 import React from 'react'
-import ContactHero from '@/app/components/contact/ContactHero'
-import ContactForm from '@/app/components/contact/ContactForm'
-import ContactSection from '@/app/components/contact/ContactSection'
-import ContactOffice from '@/app/components/contact/ContactOffice'
+import ContactHero from '../../components/contact/ContactHero'
+import ContactForm from '../../components/contact/ContactForm'
+import ContactSection from '../../components/contact/ContactSection'
+import ContactOffice from '../../components/contact/ContactOffice'
 
 const contact = () => {
   return (
