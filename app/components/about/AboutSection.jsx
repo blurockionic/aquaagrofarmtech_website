@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Image from 'next/image'; 
-import img5 from '../../images/aboutpics/aqua.png'; // Import the Image component from Next.js
+import img5 from '/public/images/aboutpics/aqua.png'; // Import the Image component from Next.js
 
 const AboutSection = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import mid from '../../images/irrigation/111.jpg';
+import mid from '/public/images/irrigation/111.jpg';
 
 const IrrigationSystemmid = () => {
   return (
@@ -57,7 +57,7 @@ const IrrigationSystemmid = () => {
               lineHeight: "27px",
               wordWrap: "break-word"
             }}>
-              Our innovative irrigation systems ensure precise water delivery, promoting healthier crops and efficient resource use. Experience the benefits of sustainable water management tailored to your farm's needs.
+              Our innovative irrigation systems ensure precise water delivery, promoting healthier crops and efficient resource use. Experience the benefits of sustainable water management tailored to your farm&apos;s needs.
             </div>
           </div>
 

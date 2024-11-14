@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import image_1 from "../../images/services/agri_type_image_1.png";
-import image_2 from "../../images/services/agri_type_image_2.png";
-import image_3 from "../../images/services/agri_type_image_3.png";
-import image_4 from "../../images/services/agri_type_image_4.png";
-import image_5 from "../../images/services/agri_type_image_5.png";
-import image_6 from "../../images/services/agri_type_image_6.png";
+import image_1 from "/public/images/services/agri_type_image_1.png";
+import image_2 from "/public/images/services/agri_type_image_2.png";
+import image_3 from "/public/images/services/agri_type_image_3.png";
+import image_4 from "/public/images/services/agri_type_image_4.png";
+import image_5 from "/public/images/services/agri_type_image_5.png";
+import image_6 from "/public/images/services/agri_type_image_6.png";
 
 function FeatureProjects() {
   return (
@@ -136,7 +136,7 @@ function FeatureProjects() {
                 </div>
                 <div className="text-black text-base leading-6 font-normal">
                   Creating beautiful landscapes that blend functionality with
-                  nature's beauty.
+                  nature&apos;s beauty.
                 </div>
               </div>
               <div className="flex gap-2">

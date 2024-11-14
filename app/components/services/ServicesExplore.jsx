@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import Explore1 from '../../images/services/Explore/Explore1.png';
-import Explore2 from '../../images/services/Explore/Explore2.png';
-import Explore3 from '../../images/services/Explore/Explore3.png';
+import Explore1 from '/public/images/services/Explore/Explore1.png';
+import Explore2 from '/public/images/services/Explore/Explore2.png';
+import Explore3 from '/public/images/services/Explore/Explore3.png';
 
 const ServicesExplore = () => {
   

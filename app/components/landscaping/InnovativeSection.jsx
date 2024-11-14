@@ -1,5 +1,5 @@
 import React from "react";
-import img8 from "../../images/landscaping/landscaping_image_8.png";
+import img8 from "/public/images/landscaping/landscaping_image_8.png";
 import Image from "next/image";
 
 const InnovativeSection = () => {

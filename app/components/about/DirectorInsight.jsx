@@ -1,13 +1,13 @@
 import React from "react";
 import "../../App.css";
 import Image from "next/image";
-import img3 from "../../images/aboutpics/director.png"; // Import the Image component from Next.js
+import img3 from "/public/images/aboutpics/director.png"; // Import the Image component from Next.js
 
 const DirectorInsight = () => {
   return (
     <section className="py-20 flex flex-col md:flex-row justify-between md:justify-start items-center md:items-start">
       <div className="px-6 md:px-24 w-full md:w-1/2 flex flex-col justify-start items-start">
-        <h2 className="text-3xl font-bold">Director's Insight</h2>
+        <h2 className="text-3xl font-bold">Director&apos;s Insight</h2>
         <p className="mt-5">
           Driving Innovation in Sustainable Agriculture Solutions
         </p>

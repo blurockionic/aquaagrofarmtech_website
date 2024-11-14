@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Heroimg from "../../images/contact/Hero/Hero.jpg";
+import Heroimg from "/public/images/contact/Hero/Hero.jpg";
 
 const ContactHero = () => {
   return (

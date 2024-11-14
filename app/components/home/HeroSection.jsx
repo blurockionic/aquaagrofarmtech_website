@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import bghero from "../../images/polyhousemain.jpg";
-import center from "../../images/showcase-4.jpg";
-import right from "../../images/showcase-5.jpg";
+import bghero from "/public/images/polyhousemain.jpg";
+import center from "/public/images/showcase-4.jpg";
+import right from "/public/images/showcase-5.jpg";
 
 const HeroSection = () => {
   return (
@@ -19,7 +19,7 @@ const HeroSection = () => {
           </div>
 
           <p className="text-black text-[14px] md:text-[16px] font-merriweather-sans font-normal leading-[20px] md:leading-[24px] break-words">
-            Grounding your home's beauty and value in nature's best. Our expert
+            Grounding your home&apos;s beauty and value in nature&apos;s best. Our expert
             farming and landscaping solutions deliver lasting quality and care.
           </p>
 

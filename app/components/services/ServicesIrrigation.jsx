@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
-import Irrigation from '../../images/services/Details/Irrigation.png';
-import Logo from '../../images/services/Hero/Logo.png';
+import Irrigation from '/public/images/services/Details/Irrigation.png';
+import Logo from '/public/images/services/Hero/Logo.png';
 
 const ServicesIrrigation = () => {
   return (

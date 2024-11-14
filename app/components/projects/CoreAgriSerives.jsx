@@ -1,8 +1,8 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import service_1 from "../../images/services/service_type_1.png";
-import service_2 from "../../images/services/service_type_2.png";
-import service_3 from "../../images/services/service_type_3.png";
+import service_1 from "/public/images/services/service_type_1.png";
+import service_2 from "/public/images/services/service_type_2.png";
+import service_3 from "/public/images/services/service_type_3.png";
 import Image from "next/image";
 
 const CoreAgriSerives = () => {

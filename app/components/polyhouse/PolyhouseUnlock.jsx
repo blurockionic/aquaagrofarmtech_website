@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import img6 from '../../images/polyhouse/Hero/img7.png';
+import img6 from '/public/images/polyhouse/Hero/img7.png';
 
 const PolyhouseUnlock = () => {
   return (

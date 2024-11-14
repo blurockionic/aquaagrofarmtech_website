@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import img3 from "../../images/testimonials/Vansh.png";
-import icon1 from "../../images/testimonials/icon1.png";
-import icon2 from "../../images/testimonials/icon2.png";
+import img3 from "/public/images/testimonials/Vansh.png";
+import icon1 from "/public/images/testimonials/icon1.png";
+import icon2 from "/public/images/testimonials/icon2.png";
 
 const TestimonialsSection = () => {
   return (
@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
                   Customer reviews are important to us.
                 </div>
                 <div className="text-black text-start md:text-xl font-medium leading-7 break-words sm:text-base sm:leading-6">
-                  Our customers'{" "}
+                  Our customers&apos;s
                   <span className="text-[#2E7D32]">satisfaction</span> is our
                   priority. Their reviews inspire us and help us improve.
                 </div>

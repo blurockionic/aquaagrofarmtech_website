@@ -1,10 +1,10 @@
 import React from "react";
-import img_1 from "../../images/ourproject/image_project_1.png";
-import img_2 from "../../images/ourproject/image_project_2.png";
-import img_3 from "../../images/ourproject/image_project_3.png";
-import img_4 from "../../images/ourproject/image_project_4.png";
-import img_5 from "../../images/ourproject/image_project_5.png";
-import img_6 from "../../images/ourproject/image_project_6.png";
+import img_1 from "/public/images/ourproject/image_project_1.png";
+import img_2 from "/public/images/ourproject/image_project_2.png";
+import img_3 from "/public/images/ourproject/image_project_3.png";
+import img_4 from "/public/images/ourproject/image_project_4.png";
+import img_5 from "/public/images/ourproject/image_project_5.png";
+import img_6 from "/public/images/ourproject/image_project_6.png";
 import Image from "next/image";
 
 const OurProjectSection = () => {

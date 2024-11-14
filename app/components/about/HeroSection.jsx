@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Image from 'next/image';  
-import img2 from '../../images/aboutpics/background.jpg';  
+import img2 from '/public/images/aboutpics/background.jpg';  
 
 const HeroSection = () => {
   return (
@@ -15,7 +15,7 @@ const HeroSection = () => {
       </div>
       <div className="hero-content py-10">
         <h1>Innovative Agriculture Solutions</h1>
-        <p className='text-sm px-5'>Leading Punjab's Agro-tech revolution with 700+ successful projects</p>
+        <p className='text-sm px-5'>Leading Punjab&apos;s Agro-tech revolution with 700+ successful projects</p>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import logo from "../images/icon 2.png"; // Assuming the image is in `public/images`
+import logo from "/public/images/icon 2.png"; // Assuming the image is in `public/images`
 import { useRouter } from "next/navigation"; // Import useRouter from next/navigation
 
 const Header = () => {
@@ -60,7 +60,7 @@ const Header = () => {
           { name: "Projects", path: "/pages/projects" },
           { name: "Gallery", path: "/pages/gallery" },
           { name: "Testimonials", path: "/pages/testimonials" },
-          { name: "Awards", path: "/pages/awards" },
+          // { name: "Awards", path: "/pages/awards" },
           { name: "Contact Us", path: "/pages/contact" },
         ].map(({ name, path }) => (
           <li
@@ -88,7 +88,7 @@ const Header = () => {
           { name: "Projects", path: "/pages/projects" },
           { name: "Gallery", path: "/pages/gallery" },
           { name: "Testimonials", path: "/pages/testimonials" },
-          { name: "Awards", path: "/pages/awards" },
+          // { name: "Awards", path: "/pages/awards" },
           { name: "Contact Us", path: "/pages/contact" },
         ].map(({ name, path }) => (
           <li

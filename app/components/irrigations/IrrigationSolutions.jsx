@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import irrigation2 from '../../images/irrigation/11.jpg';
+import irrigation2 from '/public/images/irrigation/11.jpg';
 
 // Heading Section Component
 const HeadingSection = () => {
