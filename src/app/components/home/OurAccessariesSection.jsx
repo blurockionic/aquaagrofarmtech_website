@@ -1,4 +1,5 @@
 import React from "react";
+
 import img1 from "/public/images/products/pr1.png";
 import img2 from "/public/images/products/pr2.png";
 import img3 from "/public/images/products/pr3.png";
@@ -7,6 +8,7 @@ import img5 from "/public/images/products/pr5.png";
 import img6 from "/public/images/products/pr6.png";
 import img7 from "/public/images/products/pr7.png";
 import img8 from "/public/images/products/pr8.png";
+
 import Image from "next/image";
 
 const OurAccessoriesSection = () => {
@@ -14,7 +16,7 @@ const OurAccessoriesSection = () => {
     <div className="w-full h-full p-8 bg-white flex flex-col justify-start items-center gap-12">
       <div className="self-stretch flex justify-center items-center">
         <div className="text-center text-black text-4xl font-bold leading-[57.6px] font-[Merriweather Sans] break-words">
-        Features of this structure
+        Our Products
         </div>
       </div>
 
@@ -28,7 +30,9 @@ const OurAccessoriesSection = () => {
             alt="BRACKET 'F' TYPE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            BRACKET &apos;F&apos; TYPE
+
+          Net House
+
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -45,7 +49,9 @@ const OurAccessoriesSection = () => {
             alt="BRACKET 'L' TYPE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            BRACKET &apos;L&apos; TYPE
+
+          Poly House
+
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -62,7 +68,7 @@ const OurAccessoriesSection = () => {
             alt="TUBLAR-L-JOINER"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            TUBLAR-L-JOINER
+          Irrigation System
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -79,7 +85,7 @@ const OurAccessoriesSection = () => {
             alt="TUBLAR-T-JOINER"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            TUBLAR-T-JOINER
+          Landscaping
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -96,7 +102,7 @@ const OurAccessoriesSection = () => {
             alt="GUTTER BRACKET"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            GUTTER BRACKET
+          Green House
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -113,7 +119,7 @@ const OurAccessoriesSection = () => {
             alt="GUTTER PLATE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            GUTTER PLATE
+          Terrance garden
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -130,7 +136,7 @@ const OurAccessoriesSection = () => {
             alt="GUTTER PLATE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            GUTTER PLATE
+          Garden Sprinkle
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -147,7 +153,7 @@ const OurAccessoriesSection = () => {
             alt="GUTTER PLATE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            GUTTER PLATE
+            Home Planting
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
