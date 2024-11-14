@@ -1,5 +1,5 @@
-import ImageGallery from "@/app/components/gallery/ImageGallary";
-import ProjectGallery from "@/app/components/gallery/ProjectGallery";
+import ImageGallery from "../../components/gallery/ImageGallary";
+import ProjectGallery from "../../components/gallery/ProjectGallery";
 import React from "react";
 
 const Gallery = () => {
