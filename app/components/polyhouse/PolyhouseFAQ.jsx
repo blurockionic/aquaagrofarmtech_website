@@ -75,7 +75,7 @@ const PolyhouseFAQ = () => {
         <h2 className="text-2xl font-bold text-black mb-2">
           Still have questions?
         </h2>
-        <p className="text-lg text-black">We're here to help!</p>
+        <p className="text-lg text-black">We&apos;re here to help!</p>
         <div className="mt-4">
           <button className="bg-[#B5651D] text-white py-2 px-4 rounded-lg">
             Contact Us

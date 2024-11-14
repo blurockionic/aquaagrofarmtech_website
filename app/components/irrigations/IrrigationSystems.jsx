@@ -1,11 +1,11 @@
 import React from "react";
 import Image from 'next/image';
-import img1 from '../../images/irrigation/img1.png';
-import img3 from '../../images/irrigation/ne11.jpg';
-import img7 from '../../images/irrigation/img7.png';
-import img5 from '../../images/irrigation/img5.png';
-import img6 from '../../images/irrigation/img6.png';
-import img4 from '../../images/irrigation/img4.png';
+import img1 from '/public/images/irrigation/img1.png';
+import img3 from '/public/images/irrigation/ne11.jpg';
+import img7 from '/public/images/irrigation/img7.png';
+import img5 from '/public/images/irrigation/img5.png';
+import img6 from '/public/images/irrigation/img6.png';
+import img4 from '/public/images/irrigation/img4.png';
 
 
 const IrrigationSystems = () => {

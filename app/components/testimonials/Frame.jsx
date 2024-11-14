@@ -1,5 +1,5 @@
 import React from "react";
-import frame from "../../images/testimonials/bg_image.png";
+import frame from "/public/images/testimonials/bg_image.png";
 import Image from "next/image";
 
 const Frame = () => {

@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const AchievementsAndCertifications = () => {
@@ -30,7 +31,7 @@ const AchievementsAndCertifications = () => {
         <div className="flex justify-center items-start gap-12 flex-wrap">
           {achievements.map((achievement, index) => (
             <div key={index} className="flex flex-col items-start gap-8">
-              <img
+              <Image
                 className="w-[405px] h-[240px] object-cover"
                 src={achievement.imgSrc}
                 alt={achievement.title}

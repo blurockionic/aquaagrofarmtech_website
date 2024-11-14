@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from "next/image";
-import img1 from '../../images/polyhouse/Hero/img1.png';
-import img2 from '../../images/polyhouse/Hero/img2.png';
-import img3 from '../../images/polyhouse/Hero/img3.png';
-import img4 from '../../images/polyhouse/Hero/img4.png';
-import img5 from '../../images/polyhouse/Hero/img5.png';
-import img6 from '../../images/polyhouse/Hero/img6.png';
-import img7 from '../../images/polyhouse/Hero/img7.png';
+import img1 from '/public/images/polyhouse/Hero/img1.png';
+import img2 from '/public/images/polyhouse/Hero/img2.png';
+import img3 from '/public/images/polyhouse/Hero/img3.png';
+import img4 from '/public/images/polyhouse/Hero/img4.png';
+import img5 from '/public/images/polyhouse/Hero/img5.png';
+import img6 from '/public/images/polyhouse/Hero/img6.png';
+import img7 from '/public/images/polyhouse/Hero/img7.png';
 
 const PolyhouseSection = () => {
   return (

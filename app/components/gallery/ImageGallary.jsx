@@ -1,8 +1,7 @@
 import Image from "next/image";
-import img1 from "@/app/images/gallery/gallery_1.png";
-import img2 from "@/app/images/gallery/gallery_2.png";
-import img3 from "@/app/images/gallery/gallery_3.png";
-import img4 from "@/app/images/gallery/gallery_4.png";
+import img1 from "/public/images/gallery/gallery_1.png";
+import img2 from "/public/images/gallery/gallery_2.png";
+import img3 from "/public/images/gallery/gallery_3.png";
 
 const ImageGallery = () => {
   const images = [img1, img2, img3, img1, img2, img3];

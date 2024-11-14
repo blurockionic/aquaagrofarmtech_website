@@ -1,8 +1,7 @@
 import React from "react";
-import img1 from "@/app/images/gallery/gallery_1.png";
-import img2 from "@/app/images/gallery/gallery_2.png";
-import img3 from "@/app/images/gallery/gallery_3.png";
-import img4 from "@/app/images/gallery/gallery_4.png";
+import img2 from "/public/images/gallery/gallery_2.png";
+import img3 from "/public/images/gallery/gallery_3.png";
+import img4 from "/public/images/gallery/gallery_4.png";
 import Image from "next/image";
 const ProjectGallery = () => {
   return (

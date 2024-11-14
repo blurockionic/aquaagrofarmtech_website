@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import head from "../../images/award/head.png";
+import head from "/public/images/award/head.png";
 
 const ImageHeader = ({ title }) => {
   return (

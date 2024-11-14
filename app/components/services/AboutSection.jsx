@@ -1,11 +1,12 @@
 import React from 'react';
-import img5 from '../../images/services/page_img/Hero.png'; // Import the Image component from Next.js
+import img5 from '/public/images/services/page_img/Hero.png'; // Import the Image component from Next.js
+import Image from 'next/image';
 
 const ServicesHero = () => {
   return (
     <div className="w-full h-[100vh] bg-white flex flex-col justify-center items-center gap-20">
   <div className="relative w-full h-full">
-    <img
+    <Image
       className="w-full h-full absolute top-0 left-0 opacity-60"
       src={img5}
       alt="Background"
@@ -21,7 +22,7 @@ const ServicesHero = () => {
     </div>
 
     <div className="absolute right-8 bottom-8">
-      <img
+      <Image
         className="w-[80px] sm:w-[123px] h-[80px] sm:h-[123px]"
         src="https://via.placeholder.com/123x123"
         alt="Company Logo"

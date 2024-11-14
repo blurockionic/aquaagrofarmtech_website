@@ -265,7 +265,7 @@ const FAQs = () => {
               wordWrap: 'break-word',
             }}
           >
-            We're here to help!
+            We&apos;re here to help!
           </div>
         </div>
         <ContactButton />

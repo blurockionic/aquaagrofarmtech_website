@@ -1,12 +1,12 @@
 "use client"; // Ensures this component is treated as a client component
 import Image from "next/image";
 import React from "react";
-import logo from "../images/icon 2.png";
-import fb from "../images/Facebook.svg";
-import insta from "../images/Instagram.svg";
-import link from "../images/LinkedIn.svg";
-import x from "../images/X.svg";
-import youtube from "../images/Youtube.svg";
+import logo from "/public/images/icon 2.png";
+import fb from "/public/images/Facebook.svg";
+import insta from "/public/images/Instagram.svg";
+import link from "/public/images/LinkedIn.svg";
+import x from "/public/images/X.svg";
+import youtube from "/public/images/Youtube.svg";
 import { useRouter } from "next/navigation"; // Import useRouter from next/navigation
 
 const Footer = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "../../App.css";
-import img1 from "../../images/aboutpics/timelineicon.png";
+import img1 from "/public/images/aboutpics/timelineicon.png";
 
 const Milestones = () => {
   return (

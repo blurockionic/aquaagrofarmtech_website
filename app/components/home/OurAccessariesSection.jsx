@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from "../../images/products/pr1.png";
-import img2 from "../../images/products/pr2.png";
-import img3 from "../../images/products/pr3.png";
-import img4 from "../../images/products/pr4.png";
-import img5 from "../../images/products/pr5.png";
-import img6 from "../../images/products/pr6.png";
-import img7 from "../../images/products/pr7.png";
-import img8 from "../../images/products/pr8.png";
+import img1 from "/public/images/products/pr1.png";
+import img2 from "/public/images/products/pr2.png";
+import img3 from "/public/images/products/pr3.png";
+import img4 from "/public/images/products/pr4.png";
+import img5 from "/public/images/products/pr5.png";
+import img6 from "/public/images/products/pr6.png";
+import img7 from "/public/images/products/pr7.png";
+import img8 from "/public/images/products/pr8.png";
 import Image from "next/image";
 
 const OurAccessoriesSection = () => {
@@ -28,7 +28,7 @@ const OurAccessoriesSection = () => {
             alt="BRACKET 'F' TYPE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            BRACKET 'F' TYPE
+            BRACKET &apos;F&apos; TYPE
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
@@ -45,7 +45,7 @@ const OurAccessoriesSection = () => {
             alt="BRACKET 'L' TYPE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            BRACKET 'L' TYPE
+            BRACKET &apos;L&apos; TYPE
           </div>
           <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">

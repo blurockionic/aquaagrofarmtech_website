@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ContactOffice = () => {
@@ -15,7 +16,7 @@ const ContactOffice = () => {
 
       {/* Images and Map Section */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
-        <img 
+        <Image 
           className="w-full sm:w-[404px] h-auto sm:h-[404px] object-cover rounded-lg" 
           src="https://via.placeholder.com/404x404" 
           alt="Office View 1" 

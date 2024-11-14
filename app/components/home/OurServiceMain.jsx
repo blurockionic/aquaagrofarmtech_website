@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import image_1 from "../../images/ourservices.jpg";
-import image_2 from "../../images/1111.jpg";
-import image_3 from "../../images/image_service_3.png";
+import image_1 from "/public/images/ourservices.jpg";
+import image_2 from "/public/images/1111.jpg";
+import image_3 from "/public/images/image_service_3.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { useRouter } from "next/navigation";
 import Link from "next/link";

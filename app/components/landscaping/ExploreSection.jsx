@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import img1 from "../../images/landscaping/image_1.svg";
-import img2 from "../../images/landscaping/image_2.svg";
-import img3 from "../../images/landscaping/image_3.svg";
+import img1 from "/public/images/landscaping/image_1.svg";
+import img2 from "/public/images/landscaping/image_2.svg";
+import img3 from "/public/images/landscaping/image_3.svg";
 
 const ExploreSection = () => {
   return (

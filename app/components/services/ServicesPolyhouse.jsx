@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
-import Polyhouse from '../../images/services/Details/Polyhouse.png';
-import Logo from '../../images/services/Hero/Logo.png';
+import Polyhouse from '/public/images/services/Details/Polyhouse.png';
+import Logo from '/public/images/services/Hero/Logo.png';
 
 const ServicesPolyhouse = () => {
   return (

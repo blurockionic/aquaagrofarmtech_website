@@ -2,8 +2,8 @@ import React from "react";
 import Button from "./Button";
 import "../../App.css";
 import Image from "next/image";
-import img7 from "../../images/aboutpics/target.png";
-import img8 from "../../images/aboutpics/targeticon.png"; // Import the Image component from Next.js
+import img7 from "/public/images/aboutpics/target.png";
+import img8 from "/public/images/aboutpics/targeticon.png"; // Import the Image component from Next.js
 
 const MissionVision = () => {
   return (

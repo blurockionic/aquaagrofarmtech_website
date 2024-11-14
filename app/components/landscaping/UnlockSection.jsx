@@ -1,5 +1,5 @@
 import React from "react";
-import img9 from "../../images/landscaping/landscaping_image_9.png";
+import img9 from "/public/images/landscaping/landscaping_image_9.png";
 import Image from "next/image";
 
 const UnlockSection = () => {

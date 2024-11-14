@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import img1 from "../../images/landscaping/landscaping_image_1.png";
-import img2 from "../../images/landscaping/landscaping_image_2.png";
-import img3 from "../../images/landscaping/landscaping_image_3.png";
-import img4 from "../../images/landscaping/landscaping_image_4.png";
-import img5 from "../../images/landscaping/landscaping_image_5.png";
-import img6 from "../../images/landscaping/landscaping_image_6.png";
-import img7 from "../../images/landscaping/landscaping_image_7.png";
+import img1 from "/public/images/landscaping/landscaping_image_1.png";
+import img2 from "/public/images/landscaping/landscaping_image_2.png";
+import img3 from "/public/images/landscaping/landscaping_image_3.png";
+import img4 from "/public/images/landscaping/landscaping_image_4.png";
+import img5 from "/public/images/landscaping/landscaping_image_5.png";
+import img6 from "/public/images/landscaping/landscaping_image_6.png";
+import img7 from "/public/images/landscaping/landscaping_image_7.png";
 
 const LandscapingService = () => {
   return (

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaStar } from "react-icons/fa";
 
@@ -15,9 +16,10 @@ const Testimonials = () => {
         <div className="w-full md:w-[416px] p-8 rounded-lg overflow-hidden border border-[#F5F5DC] flex flex-col justify-start items-start gap-6">
           <div className="w-full h-auto flex flex-col justify-start items-start gap-6">
             <div className="h-12 flex justify-start items-center gap-4">
-              <img
+              <Image
                 className="w-12 h-12 rounded-full"
                 src="https://via.placeholder.com/48x48"
+                alt="Testimonial Image"
               />
               <div className="w-72 flex flex-col justify-start items-start">
                 <div className="w-full text-white text-lg font-medium font-[Roboto] leading-[27px]">
@@ -45,9 +47,10 @@ const Testimonials = () => {
         <div className="w-full md:w-[416px] p-8 rounded-lg overflow-hidden border border-[#F5F5DC] flex flex-col justify-start items-start gap-6">
           <div className="w-full h-auto flex flex-col justify-start items-start gap-6">
             <div className="w-full flex justify-start items-center gap-4">
-              <img
+              <Image
                 className="w-12 h-12 rounded-full"
                 src="https://via.placeholder.com/48x48"
+                alt="Testimonial Image"
               />
               <div className="flex-1 flex flex-col justify-start items-start">
                 <div className="w-full text-white text-lg font-medium font-[Roboto] leading-[27px]">
@@ -74,7 +77,8 @@ const Testimonials = () => {
         <div className="w-full md:w-[416px] p-8 rounded-lg overflow-hidden border border-[#F5F5DC] flex flex-col justify-start items-start gap-6">
           <div className="w-full h-auto flex flex-col justify-start items-start gap-6">
             <div className="w-full flex justify-start items-center gap-4">
-              <img
+              <Image 
+                alt="Testimonial Image"
                 className="w-12 h-12 rounded-full"
                 src="https://via.placeholder.com/48x48"
               />
