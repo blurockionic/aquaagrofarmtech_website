@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.com/</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <!-- About Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/about</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/contact</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Achievements Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.com/achievements</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <!-- project Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/projects</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <!-- Gallery Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/gallery</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+   <!-- testimonials Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/testimonials</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+    <!-- service Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/services</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+      <!-- Polyhouse Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/polyhouse</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+   <!-- Irriagtion Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/irrigation</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+      <!-- Landscaping Page -->
+  <url>
+    <loc>https://www.aquaagrofarmtech.in/pages/landscaping</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>

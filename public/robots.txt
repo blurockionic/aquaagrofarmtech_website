@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.aquaagrofarmtech.com/sitemap.xml
